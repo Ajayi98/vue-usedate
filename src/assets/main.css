@@ -1,0 +1,35 @@
+@import './base.css';
+
+#app {
+  border-radius: 5px;
+  background-color: rgb(210, 210, 245);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: fit-content;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 6rem;
+  font-weight: normal;
+  
+}
+
+
+
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
